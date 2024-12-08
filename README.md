@@ -1,3 +1,9 @@
+# routing on Navbar ,not responsive till now
+Purpose:
+Project purpose is to practice and improve our ui/ux skills while in a hackathon envoirment
+Components:
+use of routing react components tailwind css and figma  
+Steps to run Project Locally:
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
