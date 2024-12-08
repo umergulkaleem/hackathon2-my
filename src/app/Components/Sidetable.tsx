@@ -23,7 +23,7 @@ const Sidetable = () => {
         <div className="w-[605px] h-[562px] ">
           <Image
             className="mt-[67px] ml-[100px] w-[1440px]"
-            src="/Cloud sofa three seater + ottoman_3 1.svg"
+            src="/Cloud sofa three seater + ottoman_3 1.png"
             width={1585}
             height={1055}
             alt="Side table 1"
