@@ -1,3 +1,4 @@
+# routing on Navbar ,not responsive till now
 Purpose:
 Project purpose is to practice and improve our ui/ux skills while in a hackathon envoirment
 Components:
