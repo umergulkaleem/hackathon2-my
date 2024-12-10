@@ -20,7 +20,7 @@ const Socials = () => {
             Follow our store on Instagram
           </div>
         </div>
-        <div className="relative mt-20 w-[255px] h-[64px] rounded-[50px] bg-[#F4F4F4] flex items-center justify-center shadow-lg">
+        <div className="relative mt-[15px] w-[255px] h-[64px] rounded-[50px] bg-[#F4F4F4] flex items-center justify-center shadow-lg">
           <p className="font-normal text-[20px] leading-[30px] text-black">
             Follow Us
           </p>

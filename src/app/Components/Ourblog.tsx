@@ -126,7 +126,7 @@ const Ourblog = () => {
           <div className="w-[126px] h-[30px] text-[20px] font-medium leading-[30px]">
             View All Post{" "}
           </div>
-          <div className="w-[115px] border-2 border-black mt-[20px] ml-[5px]"></div>
+          <div className="w-[115px] border-[1px] border-black mt-[20px] ml-[5px]"></div>
         </div>
       </div>
     </div>

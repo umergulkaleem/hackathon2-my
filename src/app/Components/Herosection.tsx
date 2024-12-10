@@ -14,7 +14,7 @@ const Herosection = () => {
           <Link href="/shop">
             <div className="w-[121px] h-[36px] font-medium text-[24px] leading-[36px] ">
               Shop Now
-              <div className="border-[2px] border-black "></div>
+              <div className="border-[1px] border-black "></div>
             </div>
           </Link>
         </div>

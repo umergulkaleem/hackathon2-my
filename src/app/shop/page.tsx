@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Image from "next/image";
-import Card from "../Card/Card";
+import Card from "../Components/Card";
 import Footer from "../Components/Footer";
 const Shop = () => {
   return (

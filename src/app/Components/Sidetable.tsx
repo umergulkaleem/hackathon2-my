@@ -16,7 +16,7 @@ const Sidetable = () => {
         </div>
         <div className="w-[125px] h-[36px] ml-[205px] leading-[36px] text-[24px] mt-[24px] font-medium  ">
           View More
-          <h1 className="border-[2px] mt-3 border-[rgba(0,0,0,1)]"></h1>
+          <h1 className="border-[1px] mt-3 border-[rgba(0,0,0,1)]"></h1>
         </div>
       </div>
       <div>
@@ -33,7 +33,7 @@ const Sidetable = () => {
           </div>
           <div className="w-[125px] h-[36px] ml-[250px] leading-[36px] text-[24px] mt-[24px] font-medium  ">
             View More
-            <h1 className="  border-[2px] mt-3 border-[rgba(0,0,0,1)]"></h1>
+            <h1 className="  border-[1px] mt-3 border-[rgba(0,0,0,1)]"></h1>
           </div>
         </div>
       </div>

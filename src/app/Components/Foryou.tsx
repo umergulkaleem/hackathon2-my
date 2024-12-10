@@ -87,7 +87,7 @@ const Foryou = () => {
         <p className="w-[104px] h-[30px] ml-[667px] font-medium text-[20px] leading-[30px] mt-[100px]">
           View More
         </p>
-        <p className="border-2 border-black w-[115px] mt-[20px] ml-[662px]"></p>
+        <p className="border-[1px] border-black w-[115px] mt-[20px] ml-[662px]"></p>
       </div>
     </div>
   );
