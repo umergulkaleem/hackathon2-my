@@ -28,7 +28,7 @@ const Ourblog = () => {
               <p className=" ml-[140px] w-[130px] h-[36px] text-[24px] font-medium leading-[36px] ">
                 Read More
               </p>
-              <p className=" ml-[140px] w-[130px] border-[2px] border-black mt-[15px]"></p>
+              <p className=" ml-[140px] w-[130px] border-[1px] border-black mt-[15px]"></p>
               <p className="flex ml-[100px] mt-[20px]">
                 <Image src="/clock.svg" width={18} height={17.83} alt="clock" />{" "}
                 &nbsp;
@@ -64,7 +64,7 @@ const Ourblog = () => {
               <p className=" ml-[140px] w-[130px] h-[36px] text-[24px] font-medium leading-[36px] ">
                 Read More
               </p>
-              <p className=" ml-[140px] w-[130px] border-[2px] border-black mt-[15px]"></p>
+              <p className=" ml-[140px] w-[130px] border-[1px] border-black mt-[15px]"></p>
               <p className="flex ml-[100px] mt-[20px]">
                 <Image src="/clock.svg" width={18} height={17.83} alt="clock" />{" "}
                 &nbsp;
@@ -100,7 +100,7 @@ const Ourblog = () => {
               <p className=" ml-[140px] w-[130px] h-[36px] text-[24px] font-medium leading-[36px] ">
                 Read More
               </p>
-              <p className=" ml-[140px] w-[130px] border-[2px] border-black mt-[15px]"></p>
+              <p className=" ml-[140px] w-[130px] border-[1px] border-black mt-[15px]"></p>
               <p className="flex ml-[100px] mt-[20px]">
                 <Image src="/clock.svg" width={18} height={17.83} alt="clock" />{" "}
                 &nbsp;
