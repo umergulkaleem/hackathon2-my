@@ -243,7 +243,7 @@ const page = () => {
           </div>
           <div className="flex justify-center space-x-8 mt-[-10px] m-4">
             <Image
-              src="Cloud sofa three seater + ottoman_2 1.svg"
+              src="/Cloud sofa three seater + ottoman_2 1.png"
               width={828}
               height={551}
               alt="Sofa 1"
@@ -251,7 +251,7 @@ const page = () => {
 
             <Image
               className="mb-[50px]"
-              src="Cloud sofa three seater + ottoman_1 1.svg"
+              src="/Cloud sofa three seater + ottoman_1 1.png"
               width={700}
               height={436}
               alt="Sofa 2"
