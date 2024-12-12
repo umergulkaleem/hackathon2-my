@@ -241,7 +241,7 @@ const page = () => {
               enables easy and stylish travel.
             </p>
           </div>
-          <div className="flex justify-center space-x-8 mt-[-10px]m-4">
+          <div className="flex justify-center space-x-8 mt-[-10px] m-4">
             <Image
               src="Cloud sofa three seater + ottoman_2 1.svg"
               width={828}
