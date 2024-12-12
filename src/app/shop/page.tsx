@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import Image from "next/image";
 import Card from "../Components/Card";
 import Footer from "../Components/Footer";
+import Link from "next/link";
 const Shop = () => {
   return (
     <div>
@@ -86,25 +87,240 @@ const Shop = () => {
           <Card />
         </div>
         <div>
-          <Card />
+          <div className="flex mt-[60px]">
+            <div className="w-[287px] h-[373px] ml-[100px] mt-[50px] ">
+              <Image
+                src="Grain coffee table 1.svg"
+                width={750}
+                height={384.46}
+                alt="For You"
+              />
+              <div className="w-[287px] h-[287px] ">
+                <p className="mt-[100px] w-[194px] h-[24px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  Grain coffee table
+                </p>
+                <p className="mt-[30px] w-[158px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs. 15,000.00
+                </p>
+              </div>
+            </div>
+            <div className=" w-[287px] h-[397px] ml-[30px] ">
+              {" "}
+              <Image
+                className="h-[287px]"
+                src="Kent coffee table 1.svg"
+                width={255}
+                height={185}
+                alt="For You2"
+              />
+              <div className="w-[212px] h-[96px]  ">
+                <p className="mt-[50px] w-[212px] h-[48px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  Kent coffee table
+                </p>
+                <p className="mt-[9px] w-[200px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs. 225,000.00
+                </p>
+              </div>
+            </div>
+            <div className=" w-[287px] h-[397px] ml-[30px] ">
+              {" "}
+              <Image
+                className="h-[287px]"
+                src="Round coffee table_color 2 1.svg"
+                width={250}
+                height={376}
+                alt="For You3"
+              />
+              <div className="w-[212px] h-[96px]  ">
+                <p className="mt-[50px] w-[212px] h-[48px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  Round coffee table_color 2
+                </p>
+                <p className="mt-[9px] w-[200px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs. 251,000.00
+                </p>
+              </div>
+            </div>
+            <div className=" w-[287px] h-[397px] ml-[30px] ">
+              {" "}
+              <Image
+                className="h-[287px]"
+                src="Reclaimed teak coffee table 1.svg"
+                width={240}
+                height={174}
+                alt="For You4"
+              />
+              <div className="w-[212px] h-[96px]  ">
+                <p className="mt-[50px] w-[212px] h-[48px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  Reclaimed teak coffee table{" "}
+                </p>
+                <p className="mt-[9px] w-[158px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs. 25,200.00
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div>
-          <Card />
+          <div className="flex mt-[60px]">
+            <div className="w-[287px] h-[373px] ml-[100px] mt-[70px] ">
+              <Image
+                src="Plain console_ 1.svg"
+                width={750}
+                height={384.46}
+                alt="For You"
+              />
+              <div className="w-[287px] h-[287px] ">
+                <p className="mt-[110px] w-[194px] h-[24px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  Plain console_
+                </p>
+                <p className="mt-[30px] w-[200px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs. 258,200.00
+                </p>
+              </div>
+            </div>
+            <div className=" w-[287px] h-[397px] ml-[30px] ">
+              {" "}
+              <Image
+                className="h-[287px]"
+                src="Reclaimed teak Sideboard 1.svg"
+                width={255}
+                height={185}
+                alt="For You2"
+              />
+              <div className="w-[212px] h-[96px]  ">
+                <p className="mt-[50px] w-[212px] h-[48px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  Reclaimed teak Sideboard
+                </p>
+                <p className="mt-[9px] w-[200px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs. 20,000.00
+                </p>
+              </div>
+            </div>
+            <div className=" w-[287px] h-[397px] ml-[30px] ">
+              {" "}
+              <Image
+                className="h-[287px]"
+                src="SJP_0825  1.svg"
+                width={250}
+                height={376}
+                alt="For You3"
+              />
+              <div className="w-[212px] h-[96px]  ">
+                <p className="mt-[50px] w-[212px] h-[48px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  SJP_0825 1
+                </p>
+                <p className="mt-[9px] w-[200px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs. 200,000.00
+                </p>
+              </div>
+            </div>
+            <div className=" w-[287px] h-[397px] ml-[30px] ">
+              {" "}
+              <Image
+                className="h-[287px]"
+                src="Bella chair and table 1.svg"
+                width={240}
+                height={174}
+                alt="For You4"
+              />
+              <div className="w-[212px] h-[96px]  ">
+                <p className="mt-[50px] w-[212px] h-[48px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  Bella chair and table{" "}
+                </p>
+                <p className="mt-[9px] w-[200px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs. 100,000.00
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div>
-          <Card />
+          <div className="flex mt-[60px]">
+            <div className="w-[287px] h-[373px] ml-[100px] mt-[0px] ">
+              <Image
+                src="Granite square side table 2.svg"
+                width={750}
+                height={384.46}
+                alt="For You"
+              />
+              <div className="w-[287px] h-[287px] ">
+                <p className="mt-[50px] w-[210px] h-[24px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  Granite square side table
+                </p>
+                <p className="mt-[30px] w-[200px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs. 258,800.00
+                </p>
+              </div>
+            </div>
+            <div className=" w-[287px] h-[397px] ml-[30px] ">
+              {" "}
+              <Link href="/singleProduct">
+                <Image
+                  className="h-[287px]"
+                  src="Asgaard sofa 2.svg"
+                  width={255}
+                  height={185}
+                  alt="For You2"
+                />
+                <div className="w-[212px] h-[96px]  ">
+                  <p className="mt-[50px] w-[212px] h-[48px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                    Asgaard sofa
+                  </p>
+                  <p className="mt-[9px] w-[200px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                    Rs. 250,000.00
+                  </p>
+                </div>
+              </Link>
+            </div>
+            <div className=" w-[287px] h-[397px] ml-[30px] ">
+              {" "}
+              <Image
+                className="h-[287px]"
+                src="Maya sofa three seater 1.svg"
+                width={250}
+                height={376}
+                alt="For You3"
+              />
+              <div className="w-[212px] h-[96px]  ">
+                <p className="mt-[50px] w-[212px] h-[48px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  Maya sofa three seater
+                </p>
+                <p className="mt-[9px] w-[200px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs. 250,000.00
+                </p>
+              </div>
+            </div>
+            <div className=" w-[287px] h-[397px] ml-[30px] ">
+              {" "}
+              <Image
+                className="h-[287px]"
+                src="Outdoor sofa set 1.svg"
+                width={240}
+                height={174}
+                alt="For You4"
+              />
+              <div className="w-[212px] h-[96px]  ">
+                <p className="mt-[50px] w-[212px] h-[48px] ml-[0px] text-[16px] font-normal leading-[24px]  ">
+                  Outdoor sofa set{" "}
+                </p>
+                <p className="mt-[9px] w-[200px] h-[36px] ml-[0px] text-[24px] font-medium leading-[36px]">
+                  Rs.244,000.00
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div className="flex flex-col items-center w-full h-[450px]">
         <div className="flex space-x-2 mb-4 mt-[80px]">
-          <p className="bg-yellow-200 px-4 py-2 rounded">1</p>
-          <p className="bg-yellow-100 px-4 py-2 rounded">2</p>
-          <p className="bg-yellow-100 px-4 py-2 rounded">3</p>
-          <p className="bg-yellow-100 px-4 py-2 rounded">Next</p>
+          <p className="bg-yellow-200 px-8 py-5 rounded-xl">1</p>
+          <p className="bg-gray-200 px-8 py-5 rounded-xl">2</p>
+          <p className="bg-gray-200 px-8 py-5 rounded-xl">3</p>
+          <p className="bg-gray-200 px-8 py-5 rounded-xl">Next</p>
         </div>
 
-        <div className="flex justify-around w-full bg-gray-100 p-8">
+        <div className="flex justify-around w-full bg-gray-100 p-8 mt-[100px] mb-[120px] gap-[50px]">
           <div className="text-center">
             <h2 className="font-medium text-[40px]">Free Delivery</h2>
             <p className="font-light text-[#9f9f9f] w-[200px]">

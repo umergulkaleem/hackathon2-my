@@ -1,10 +1,10 @@
 import React from "react";
 
-const Footer1 = () => {
+const Footer = () => {
   return (
     <div>
-      <div className="w-[1400px] h-[555px] bg-[#FFFFFF] mt-[100px]">
-        <div className="w-[1240.01px] h-[419px] ml-[100px]">
+      <div className="w-[1400px] h-[300px] bg-[#FFFFFF] mt-[100px]">
+        <div className="w-[1240.01px] h-[300px] ml-[100px]">
           <div className="w-[1131px] h-[312px] ml-[102.01] flex">
             <div className="w-[285px] h-[72px] ml-[0px] font-normal text-[16px] leading-[24px] text-[#9F9F9F]">
               400 University Drive Suite 200 Coral <p>Gables,</p> FL 33134 USA
@@ -73,4 +73,4 @@ const Footer1 = () => {
   );
 };
 
-export default Footer1;
+export default Footer;
