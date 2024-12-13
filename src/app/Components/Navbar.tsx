@@ -13,8 +13,11 @@ const Navbar = () => {
           {" "}
           <h1 className=" w-[42px] h-6 ml-[81px]">Shop</h1>
         </Link>
-        <h1 className=" w-[49px] h-6 ml-[68px]">About</h1>
-        <Link href="/form">
+        <Link href="/blog">
+          {" "}
+          <h1 className=" w-[49px] h-6 ml-[68px]">About</h1>
+        </Link>
+        <Link href="/contact">
           {" "}
           <h1 className=" w-[66px] h-6 ml-[58px]">Contact</h1>
         </Link>
@@ -22,12 +25,14 @@ const Navbar = () => {
 
       <div className=" flex w-[247px] h-[28px] mt-9 ml-[134px] ">
         <h1 className=" flex-shrink-0 ml-[45px] ">
-          <Image
-            src="/mdi_account-alert-outline@2x.svg"
-            width={28}
-            height={28}
-            alt="icon1"
-          />
+          <Link href="/myaccount">
+            <Image
+              src="/mdi_account-alert-outline@2x.svg"
+              width={28}
+              height={28}
+              alt="icon1"
+            />
+          </Link>
         </h1>
         <h1 className=" flex-shrink-0 ml-[45px]">
           <Image
@@ -38,20 +43,24 @@ const Navbar = () => {
           />
         </h1>
         <h1 className="flex-shrink-0 ml-[45px]">
-          <Image
-            src="/akar-icons_heart.svg"
-            width={28}
-            height={28}
-            alt="icon3"
-          />
+          <Link href="/checkout">
+            <Image
+              src="/akar-icons_heart.svg"
+              width={28}
+              height={28}
+              alt="icon3"
+            />
+          </Link>
         </h1>
         <h1 className=" flex-shrink-0 ml-[45px]">
-          <Image
-            src="/ant-design_shopping-cart-outlined.svg"
-            width={28}
-            height={28}
-            alt="icon4"
-          />
+          <Link href="/cart">
+            <Image
+              src="/ant-design_shopping-cart-outlined.svg"
+              width={28}
+              height={28}
+              alt="icon4"
+            />
+          </Link>
         </h1>
       </div>
     </div>

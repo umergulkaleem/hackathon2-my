@@ -1,14 +1,33 @@
+"use client";
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Image from "next/image";
 import Footer from "../Components/Footer";
 import Card from "../Components/Card";
+import { SidebarProvider, useSidebar } from "../Components/Sidebar";
+import Sidebar from "../Components/Sidebar";
+
+const Content: React.FC = () => {
+  const { toggleSidebar } = useSidebar();
+  return (
+    <div className="relative  bg-gray-100">
+      <Sidebar />
+      <button
+        onClick={toggleSidebar}
+        className="p-4 ml-[10%]  text-white rounded"
+      >
+        <Image src="shopping-cart.svg" width={40} height={40} alt="Cart" />
+      </button>
+    </div>
+  );
+};
 const page = () => {
   return (
     <div>
       <div>
         <Navbar />
       </div>
+
       <div className="flex ml-[100px] mt-[50px]">
         <div className=" flex w-[82px] h-[24px] ">
           <p className="w-[48px] h-[24px] text-[16px] font-normal leading-[24px] text-[#9F9F9F]">
@@ -165,6 +184,11 @@ const page = () => {
               <button className="w-[215px] h-[64px] border-[2px] border-[#000000] rounded-[16px]">
                 Add to Cart
               </button>
+              <div>
+                <SidebarProvider>
+                  <Content />
+                </SidebarProvider>
+              </div>
             </div>
 
             <div className="mt-[100px] flex">
@@ -261,7 +285,7 @@ const page = () => {
       </div>
       <p className="border-[1px] border-[#D9D9D9] w-[1440px]  mb-[40px] mt-[50px]"></p>
       <p className="w-[309px] h-[54px] font-medium text-[36px] leading-[54px] ml-[40%] mb-[-40px] mt-[100px]">
-        Related Products{" "}
+        Related Products
       </p>
       <div>
         <Card />
