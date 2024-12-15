@@ -58,59 +58,54 @@ const page = () => {
               <div>
                 <div className="mb-8">
                   <span className="inline-flex items-center">
-                    {" "}
                     <Image
                       src="map-pin.svg"
                       width={22}
                       height={28.18}
                       alt="location icon"
-                    />{" "}
-                  </span>{" "}
+                    />
+                  </span>
                   <span className="text-[24px] font-medium  leading-[36px] inline-block ml-2">
                     Address
                   </span>
                   <p className="font-normal ml-[35px] text-[16px] leading-[24px] ">
-                    236 5th SE Avenue, New{" "}
+                    236 5th SE Avenue, New
                     <p className="font-normal text-[16px] leading-[24px] ">
-                      {" "}
                       York NY10000, United
                     </p>
                     <p className="font-normal text-[16px] leading-[24px] ">
-                      {" "}
                       States
                     </p>
                   </p>
                 </div>
                 <div className="mb-8">
                   <span className="inline-flex items-center">
-                    {" "}
                     <Image
                       src="phone.svg"
                       width={22}
                       height={28.18}
                       alt="location icon"
-                    />{" "}
-                  </span>{" "}
+                    />
+                  </span>
                   <span className="text-[24px] font-medium  leading-[36px] inline-block ml-2">
                     Phone
                   </span>
                   <p className="font-normal ml-[35px]  text-[16px] leading-[24px] ">
                     Mobile: (+84) 546-6789
-                  </p>{" "}
+                  </p>
                   <p className="font-normal ml-[35px] text-[16px] leading-[24px] ">
                     Hotline: (+84) 456-6789
                   </p>
                 </div>
                 <div className="mb-8">
                   <span className="inline-flex items-center">
-                    {" "}
                     <Image
                       src="clock-1.svg"
                       width={22}
                       height={28.18}
                       alt="location icon"
-                    />{" "}
-                  </span>{" "}
+                    />
+                  </span>
                   <span className="text-[24px] font-medium  leading-[36px] inline-block ml-2">
                     Working Time
                   </span>
@@ -153,8 +148,7 @@ const page = () => {
                   </div>
                   <div className="w-[528.75px] h-[75px] text-[#9F9F9F] border-[#9F9F9F] border-[1px] p-2  rounded-[10px] mt-[20px] mb-[30px]">
                     <p className="mt-[16px] ml-[15px]">
-                      {" "}
-                      I'd like to talk about...{" "}
+                      I'd like to talk about...
                     </p>
                   </div>
                 </div>
