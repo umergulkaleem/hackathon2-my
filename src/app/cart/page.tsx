@@ -43,7 +43,73 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div>middle div</div>
+      <div>
+        <div className="w-[1440px] ml-[-20px] h-[480px] flex justify-between p-8">
+          <div className="w-2/3">
+            <div className="flex justify-between p-4 mt-[35px]">
+              <span className="ml-[200px] font-medium text-[16px] leadong-[24px]">
+                Product
+              </span>
+              <span className="ml-[100px] font-medium text-[16px] leadong-[24px]">
+                Price
+              </span>
+              <span className=" ml-[40px] font-medium text-[16px] leadong-[24px]">
+                Quantity
+              </span>
+              <span className=" mr-[130px] font-medium text-[16px] leadong-[24px]">
+                Subtotal
+              </span>
+            </div>
+            <div className="flex justify-between mt-[30px] ml-[50px] items-center p-4 border-b">
+              <div className="flex items-center">
+                <Image
+                  src="Asgaard sofa 1.svg"
+                  alt="Asgaard sofa"
+                  width={112.99}
+                  height={92.02}
+                />
+                <span className="ml-[30px] text-[16-px] font-normal leading-[24px] text-[#9F9F9F]">
+                  Asgaard sofa
+                </span>
+              </div>
+              <span className="ml-[30px] text-[16-px] font-normal leading-[24px] text-[#9F9F9F]">
+                Rs. 250,000.00
+              </span>
+              <p className="w-[32px] h-[32px] border-[1px] border-[#9F9F9F] text-justify ">
+                <p className="ml-[12px] mt-[4px]"> 1</p>
+              </p>
+              <span className="font-normal text-[16px] leading-[24px]">
+                Rs. 250,000.00
+              </span>
+              <Image src="trash.svg" width={28} height={28} alt="garbage can" />
+            </div>
+          </div>
+          <div className="w-1/3 p-8 ml-[120px]">
+            <h2 className="text-[32px] font-semibold leading-[48px] ml-[50px]   mb-4">
+              Cart Totals
+            </h2>
+            <div className="flex justify-between mb-2">
+              <span className="font-medium text-[16px] mt-[50px] mb-[30px] leading-[24px]">
+                Subtotal
+              </span>{" "}
+              <span className="font-normal text-[#9F9F9F] text-[16px] mt-[50px] mr-[90px] leading-[24px]">
+                Rs. 250,000.00
+              </span>
+            </div>
+            <div className="flex justify-between mb-4">
+              <span className="font-medium text-[16px] leading-[24px]">
+                Total
+              </span>
+              <span className=" text-[#B88E2F] font-normal text-[20px] mr-[90px] leading-[30px]">
+                Rs. 250,000.00
+              </span>
+            </div>
+            <button className=" border-black w-[222px] h-[58.95px] border-[1px] mt-[20px] ml-[10px] rounded-[15px]">
+              Check Out
+            </button>
+          </div>
+        </div>
+      </div>
       <div>
         <div className="flex justify-around w-full bg-gray-100 p-8 mt-[100px] mb-[280px] gap-[50px]">
           <div className="text-center">
