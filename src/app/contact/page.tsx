@@ -148,7 +148,7 @@ const page = () => {
                   </div>
                   <div className="w-[528.75px] h-[75px] text-[#9F9F9F] border-[#9F9F9F] border-[1px] p-2  rounded-[10px] mt-[20px] mb-[30px]">
                     <p className="mt-[16px] ml-[15px]">
-                      I'd like to talk about...
+                      Id like to talk about...
                     </p>
                   </div>
                 </div>
