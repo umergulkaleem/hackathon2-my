@@ -330,7 +330,7 @@ const page = () => {
         </div>
       </div>
       <div className="mt-[400px]">
-        <div className="flex justify-around w-full bg-gray-100 p-8 mt-[100px] mb-[280px] gap-[50px]">
+        <div className="flex justify-around w-full  p-8 mt-[100px] mb-[280px] gap-[50px]">
           <div className="text-center">
             <h2 className="font-medium text-[40px]">Free Delivery</h2>
             <p className="font-light text-[#9f9f9f] w-[250px]">

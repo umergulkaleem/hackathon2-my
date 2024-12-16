@@ -10,7 +10,7 @@ import Sidebar from "../Components/Sidebar";
 const Content: React.FC = () => {
   const { toggleSidebar } = useSidebar();
   return (
-    <div className="relative  bg-gray-100">
+    <div className="relative  ">
       <Sidebar />
       <button
         onClick={toggleSidebar}
