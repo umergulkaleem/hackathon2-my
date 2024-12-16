@@ -156,7 +156,7 @@ const page = () => {
                 <p className="flex justify-between">
                   <span className="text-[24px] font-medium leading-[36px]">
                     Product
-                  </span>{" "}
+                  </span>
                   <span className="text-[24px] font-medium leading-[36px]">
                     Subtotal
                   </span>
@@ -164,7 +164,7 @@ const page = () => {
                 <p className="flex justify-between mt-[25px]">
                   <span className="text-[16px] font-normal leading-[24px]">
                     <span className="text-[#9F9F9F]"> Asgaard sofa</span> × 1
-                  </span>{" "}
+                  </span>
                   <span className="font-light text-[16px] leading-[24px]">
                     Rs. 250,000.00
                   </span>
@@ -174,7 +174,7 @@ const page = () => {
                 <p className="flex justify-between font-bold">
                   <span className="font-normal text-[16px] leading-[24px]">
                     Subtotal
-                  </span>{" "}
+                  </span>
                   <span className="font-light text-[16px] leading-[24px]">
                     Rs. 250,000.00
                   </span>
@@ -182,7 +182,7 @@ const page = () => {
                 <p className="flex justify-between mt-[20px] ">
                   <span className="font-normal text-[16px] leading-[24px]">
                     Total
-                  </span>{" "}
+                  </span>
                   <span className="font-bold text-[24px] leading-[36px] text-[#B88E2F]">
                     Rs. 250,000.00
                   </span>
