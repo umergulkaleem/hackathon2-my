@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -17,16 +18,16 @@ const Footer = () => {
                       Links
                     </li>
                     <li className="text-black w-[48px] h-[24px] text-[16px] font-medium leading-[24px] mb-[45px]">
-                      Home
+                      <Link href="/"> Home</Link>
                     </li>
                     <li className="w-[48px] h-[24px] text-[16px] font-medium leading-[24px] mb-[45px]">
-                      Shop
+                      <Link href="/shop"> Shop</Link>
                     </li>
                     <li className="w-[48px] h-[24px] text-[16px] font-medium leading-[24px] mb-[45px]">
-                      About
+                      <Link href="/blog"> About</Link>
                     </li>
                     <li className="w-[48px] h-[24px] text-[16px] font-medium leading-[24px] mb-[45px]">
-                      Contact
+                      <Link href="/contact"> Contact</Link>
                     </li>
                   </ul>
                 </div>
