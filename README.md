@@ -1,4 +1,4 @@
-# routing on Navbar ,not responsive till now
+# routing on Navbar and Footer ,shop page have product page link on Asgaard sofa it has a side bar on the cart icon,rest of the pages can be accessed from the Navbar  
 Purpose:
 Project purpose is to practice and improve our ui/ux skills while in a hackathon envoirment
 Components:
