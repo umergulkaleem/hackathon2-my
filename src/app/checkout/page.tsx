@@ -44,7 +44,7 @@ const page = () => {
         </div>
       </div>
       <div>
-        <div className="flex flex-col lg:flex-row gap-8 p-8">
+        <div className="flex flex-row  gap-8 p-8">
           <div className="w-full ml-[130px] mt-[70px]">
             <h2 className="text-[36px] font-semibold leading-[54px] mb-7">
               Billing details
